@@ -1,0 +1,235 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	background-color:rgb(119, 175, 119);
+}
+
+h2{
+	text-align: center;
+	margin-top: 50;
+}
+
+h3{
+	text-align: center;
+	margin-top: 10;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+/*Шапка сайта*/
+.header{
+	background: rgb(0, 204, 255);
+	position: fixed;
+	width: 100%;
+	height: 170;
+	border-bottom: 10px solid darkorange;
+	min-width: 800;
+	z-index: 100;
+}
+
+.title{
+	position: absolute;
+	top: 25;
+	left: 10%;
+	min-width: 600;
+}
+
+.name{
+	color: white;
+	margin: 0 0 0 150;
+}
+
+.big{
+	font-size: 1.8em;
+	color: rgb(0, 255, 200);
+}
+
+/*Меню*/
+.menu{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 10;
+	right: 5%;
+}
+
+.menu li{
+	display:inline-block;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: rgb(217, 255, 0);
+	font-size: 1.5em;
+	padding: 10 10 5;
+	transition: all .5s;
+}
+
+.menu li a:hover{
+	border-bottom: 5px solid darkorange;
+	color: orange;
+}
+
+/*Контент*/
+.anchor{
+	position: relative;
+	bottom: 170;
+}
+
+.main{	
+	position: relative;
+	top: 170;
+	min-width: 800;
+}
+
+/*Приветствие*/
+.welcome img{
+	position: relative;
+}
+
+.welcome p{
+	position: absolute;
+	top: 50;
+	left: 50;
+	border-radius: 20px;
+	width: 600;
+	padding: 20;
+	color: rgba(255, 6, 172, 0.548);
+	background: rgba(0,0,0,.6);
+	opacity: 100%;
+	font-size: 1.5em;
+}
+
+/*Полоска*/
+.line{
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background: rgb(0, 255, 157);
+	clear: both;
+}
+
+/*О нас*/
+.box{
+	border: 5px solid rgb(0, 0, 0);
+	border-radius: 20px;
+	width: 25%;
+	min-width: 250;
+	height: 200;
+	float: left;
+	margin: 10 4% 50;
+	padding: 20;
+	color: rgb(0, 0, 0);
+}
+
+/*Фотогалерея*/
+.photo{
+	min-width: 400;
+	width: 25%;
+	height: 400;
+	float: left;
+	margin: 20 4%;
+}
+
+.photo img{
+	width: 100%;
+	height: 350;
+	border: 5px solid darkorange;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.photo p{
+	text-align: center;
+}
+
+/*Контакты*/
+.contacts{
+	float: left;
+	margin: 10 4%;
+	width: 40%;
+	height: 400;
+	min-width: 400;
+	border: 5px solid rgb(255, 0, 55)
+}
+
+/*Подвал сайта*/
+.footer{
+	background: black;
+	position: relative;
+	padding: 10 30;
+	width: 100%;
+	height: 70;
+	min-width: 800;
+	z-index: 100;
+}
+
+.footer p{
+	color: white;
+	float: right;
+	margin: 20 10;
+}
+.gg{
+	color: blue;
+}
+.ep:hover{
+	font-size: 50px;
+	color: chartreuse;
+	margin-left: 30px;
+	
+}
+.ep{
+	color: chocolate;
+	font-size: 25px;
+	margin-left: 105px;
+}
+.ep:visited{
+	
+}
+.fff{
+	color: black;
+}
+.gp{
+	font-weight: bold;
+	font-size: 25px;
+}
+.dal{
+	font-weight: bold;
+	font-size: 25px;
+}
+.gi{
+	font-weight: bold;
+	font-size: 25px;
+}
+.gp3{
+	font-weight: bold;
+	font-size: 25px;
+}
+.ghgpt{
+	font-weight: bold;
+	font-size: 25px;
+}
+.fgg{
+	color: blueviolet;
+
+}
+.ggg{
+	font-size: 25px;
+	color: fuchsia;
+	margin-bottom: 20px;
+	margin-top: -20px;
+	margin-left: 110px;
+}
+.ddd{
+	color: white;
+	
+}
+.ghfd{
+	font-weight: bold;
+	font-size: 25px;
+
+
+}
